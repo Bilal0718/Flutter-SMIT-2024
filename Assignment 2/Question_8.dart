@@ -7,9 +7,7 @@ void main() {
     {'name': 'Zain', 'eligible': false},
   ];
 
-  // Remove all elements with 'eligible' set to false
   usersEligibility.removeWhere((user) => user['eligible'] == false);
-
-  // Print the updated list
+  
   print("Updated usersEligibility list: $usersEligibility");
 }
